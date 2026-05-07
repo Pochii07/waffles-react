@@ -13,8 +13,8 @@
   }
 
   *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
-  body { font-family: var(--sans); background: var(--warm-white); color: var(--black); overflow-x: hidden; cursor: none; }
+  html { scroll-behavior: smooth; overflow-x: hidden; }
+  body { font-family: var(--sans); background: var(--warm-white); color: var(--black); overflow-x: hidden; cursor: none; max-width: 100vw; }
 
   .cursor {
     position: fixed; width: 10px; height: 10px;
@@ -969,8 +969,8 @@
     section { padding: 72px 16px; }
     .hero {
       padding: 94px 16px 28px;
-      overflow: visible;
     }
+    .hero-sunny-blob { display: none; }
     .hero-title {
       font-size: clamp(2.6rem, 13vw, 3.8rem);
       line-height: 0.95;
