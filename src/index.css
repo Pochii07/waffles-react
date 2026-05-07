@@ -196,7 +196,7 @@
 
   /* Hero photo in hero */
   .hero-art {
-    position: absolute; right: 0; top: 50%;
+    position: absolute; right: 100px; top: 50%;
     transform: translateY(-50%);
     width: 620px; height: 540px;
     display: flex; align-items: center; justify-content: center;
